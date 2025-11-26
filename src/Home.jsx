@@ -4,7 +4,7 @@ import pic1 from './assets/image1.png'
 const Home = () =>{
     return(
         <>
-            <div class="flex">
+            <div class="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-10">
             <div class="pt-15">
               <p class="text-4xl"><b>Want anything to be</b></p>
               <p class="text-4xl"><b>easy with Lesles VPN.</b></p>
@@ -13,7 +13,7 @@ const Home = () =>{
               <button class="text-white bg-red-500 rounded-md w-34 h-12">Get started</button>
               </div>
             <div class="pt-10 pl-30">
-                <img src={pic1} class="w-130 h-70"/>
+                <img src={pic1} class="w-full max-w-[500] h-auto"/>
             </div>
           </div>
         </>
@@ -21,3 +21,4 @@ const Home = () =>{
 }
 
 export default Home
+

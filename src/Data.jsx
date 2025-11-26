@@ -6,7 +6,7 @@ import pic3 from './assets/loc.png';
 const Data = () =>{
     return(
         <>
-        <div class="flex pt-20 pt-10 px-40 gap-50">
+        <div class="flex pt-20 pt-10 px-40 gap-50 flex-col md:flex-row justify-between items-center">
             <div class="flex gap-7">
               <img src={pic1} class="w-12"/>
               <div class="gap-10">
