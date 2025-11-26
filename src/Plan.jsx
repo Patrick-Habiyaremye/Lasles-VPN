@@ -10,7 +10,7 @@ const Plan = () =>{
            <h2 class="text-3xl font-bold">Choose Your Plan</h2>
            <p class="text-gray-600 mt-2">
             Let's choose the package that is best for you and explore it happily
-            and cheerfully.
+            and cheerfully
             </p>
             </div>
             <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
